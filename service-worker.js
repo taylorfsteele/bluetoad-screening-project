@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bluetoad-screening-project/precache-manifest.e1798457483a1b863d616dae57124250.js"
+  "/bluetoad-screening-project/precache-manifest.9e69863e5178151a2f0587dac0806ea0.js"
 );
 
 self.addEventListener('message', (event) => {
