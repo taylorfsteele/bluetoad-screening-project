@@ -8,7 +8,7 @@ function App() {
 	const { register, handleSubmit } = useForm();
 	const [images, setImages] = useState([]);
 	const onSubmit = async (data) => {
-		const apiKey = process.env.FLICKR_API_KEY;
+		const apiKey = process.env.REACT_APP_APIKey;
 		try {
 			const url = `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${data.search}&safe_search=1&per_page=25&page=1&format=json&nojsoncallback=1`;
 			const response = await fetch(url, {
